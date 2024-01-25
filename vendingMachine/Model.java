@@ -50,37 +50,37 @@ import java.lang.Math;
 
 
 public class Model {
-   //Define fields (all instance variables)
-	     
-	 private View view;         // Model must tell View when to update itself
-	 
-	 private int    cokeLeft;
-	 private int    pepsiLeft;
-	 
-	 private int    quartersLeft, dimesLeft, nickelsLeft;
-	 
-	 //I defined about 10 more fields
-
-   //Define constructor
-   
-   //Refer to the view (used to call update after each button press)
-	 public void addView(View v)
-	 {view = v;}
-
-   //Define required methods: mutators and accessors
-   
-	 //Represent "interesting" state of vending machine
-	 public String toString()
-	 {
-	   return "Vending Machine State: \n" +
-	     "  Coke     Left      = " + cokeLeft     + "\n" +
-	     "  Pepsi    Left      = " + pepsiLeft    + "\n" +
-	     "  Quarters Left      = " + quartersLeft + "\n" +
-	     "  Dimes    Left      = " + dimesLeft    + "\n" +
-	     "  Nickels  Left      = " + nickelsLeft  + "\n";
-	     //Display any other instance variables that you declare too
-   }
-
-   //Define helper methods
+	//Define fields (all instance variables)
+	
+	private View view;         // Model must tell View when to update itself
+	
+	private int    cokeLeft;
+	private int    pepsiLeft;
+	
+	private int    quartersLeft, dimesLeft, nickelsLeft;
+	
+	//I defined about 10 more fields
+	
+	//Define constructor
+	
+	//Refer to the view (used to call update after each button press)
+	public void addView(View v)
+	{view = v;}
+	
+	//Define required methods: mutators (setters) and accessors (getters)
+	
+	//Represent "interesting" state of vending machine
+	public String toString()
+	{
+	return "Vending Machine State: \n" +
+	"  Coke     Left      = " + cokeLeft     + "\n" +
+	"  Pepsi    Left      = " + pepsiLeft    + "\n" +
+	"  Quarters Left      = " + quartersLeft + "\n" +
+	"  Dimes    Left      = " + dimesLeft    + "\n" +
+	"  Nickels  Left      = " + nickelsLeft  + "\n";
+	//Display any other instance variables that you declare too
+	}
+	
+	//Define helper methods
 
 }
