@@ -72,13 +72,13 @@ public class Model {
 	//Represent "interesting" state of vending machine
 	public String toString()
 	{
-	return "Vending Machine State: \n" +
-	"  Coke     Left      = " + cokeLeft     + "\n" +
-	"  Pepsi    Left      = " + pepsiLeft    + "\n" +
-	"  Quarters Left      = " + quartersLeft + "\n" +
-	"  Dimes    Left      = " + dimesLeft    + "\n" +
-	"  Nickels  Left      = " + nickelsLeft  + "\n";
-	//Display any other instance variables that you declare too
+		return "Vending Machine State: \n" +
+			"  Coke     Left      = " + cokeLeft     + "\n" +
+			"  Pepsi    Left      = " + pepsiLeft    + "\n" +
+			"  Quarters Left      = " + quartersLeft + "\n" +
+			"  Dimes    Left      = " + dimesLeft    + "\n" +
+			"  Nickels  Left      = " + nickelsLeft  + "\n";
+		//Display any other instance variables that you declare too
 	}
 	
 	//Define helper methods
