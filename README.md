@@ -2,7 +2,9 @@ Vending Machine
 ===============
 In this assignment, you will see how a GUI (graphical user interface) is implemented using a Model-View-Controller pattern of software design. Although the **Model** class is the only class you need to modify and complete, feel free to look at the other files to see how the different classes work together.
 
-Write a class named **Model** for the vendingMachine package. This class implements the actions of a vending machine which allows coins to be deposited and products to be bought (or transactions to be cancelled). It consists of some properties (you will have to infer most of these; plan on adding/removing fields as you implement/debug this class), methods, and a constructor with no parameters. It must implement the following **public** methods (see their headers below), which are called by the **Controller** and **View** classes to simulate a vending machine. The program will not compile without these methods; you can write other **private** helper methods for this class as well, to avoid duplicating code.
+***Note: class variables (which we introduced as properties) are also known as fields***
+
+Write a class named **Model** for the vendingMachine package. This class implements the actions of a vending machine which allows coins to be deposited and products to be bought (or transactions to be cancelled). It consists of some fields (you will have to infer most of these; plan on adding/removing fields as you implement/debug this class), methods, and a constructor with no parameters. It must implement the following **public** methods (see their headers below), which are called by the **Controller** and **View** classes to simulate a vending machine. The program will not compile without these methods; you can write other **private** helper methods for this class as well, to avoid duplicating code.
 
 **void cancel()** is called when the _cancel_ button is pressed. It should terminate any pending sale and return whatever coins the user has deposited. When the view is updated, it should explain this action in the message window at the bottom.
 
