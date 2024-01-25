@@ -50,6 +50,16 @@ import java.lang.Math;
 
 
 public class Model {
+   //Define fields (all instance variables)
+	     
+	 private View view;         // Model must tell View when to update itself
+	 
+	 private int    cokeLeft;
+	 private int    pepsiLeft;
+	 
+	 private int    quartersLeft, dimesLeft, nickelsLeft;
+	 
+	 //I defined about 10 more fields
 
    //Define constructor
    
@@ -73,14 +83,4 @@ public class Model {
 
    //Define helper methods
 
-   //Define fields (all instance variables)
-	     
-	 private View view;         // Model must tell View when to update itself
-	 
-	 private int    cokeLeft;
-	 private int    pepsiLeft;
-	 
-	 private int    quartersLeft, dimesLeft, nickelsLeft;
-	 
-	 //I defined about 10 more fields
 }
